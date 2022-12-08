@@ -13,6 +13,7 @@ template.innerHTML = `
         <div class="comment-display">
             <p class="comment">Comment</p>
             <p class="author">Author:</p>
+            <p class="date">Date:</p>
             <p class="likes">Likes: 0</p>
             <button class="like-button">Like</button>
             <button class="unlike-button">Unlike</button>
@@ -90,7 +91,13 @@ export class CommentBox extends HTMLElement {
     const comment = this.commentDisplay.querySelector(".comment");
 
     // Yazar ismi
+
     const author = this.commentDisplay.querySelector(".author");
+
+    const dates = this.commentDisplay.querySelector(".date");
+    const newDate = new Date();
+    console.log(newDate);
+    dates.innerHTML = `Added: ${newDate}`;
 
     // Kullanıcılardan gelen yorumları göstermek
     comment.innerHTML = commentInput.value;

@@ -14,7 +14,8 @@
 }
 
 .comment-box .author,
-.likes {
+.likes,
+.date {
   color: #777;
   font-weight: bold;
   font-size: 14px;
