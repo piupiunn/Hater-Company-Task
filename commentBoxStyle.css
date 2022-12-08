@@ -1,0 +1,54 @@
+.comment-box {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  color: black;
+
+  background-color: #e1e1e1;
+}
+
+.comment-box .comment {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.comment-box .author,
+.likes {
+  color: #777;
+  font-weight: bold;
+  font-size: 14px;
+}
+.comment-box .author {
+  margin-top: 10px;
+}
+
+.comment-box .likes {
+  margin-bottom: 10px;
+}
+
+.comment-box .reply-box {
+  margin-top: 10px;
+}
+
+.comment-box input {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #777;
+}
+
+.comment-box button {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: 600;
+  border-style: none;
+  background: #fff;
+
+  display: inline;
+  transition: all 200ms;
+}
